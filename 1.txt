@@ -1,0 +1,11 @@
+进入容器命令
+docker exec -it 容器名字 bash
+
+删除镜像
+docker rmi ID或者镜像名字
+
+创建docker网络
+docker network create docker_network
+
+运行yml文件
+docker-compose -f 文件名 up -d --build
