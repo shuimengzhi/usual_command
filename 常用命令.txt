@@ -11,3 +11,16 @@ docker network create docker_network
 docker-compose -f 文件名 up -d --build
 
 static访问调用它的类，self访问定义它的类，parent访问定义它的类的父类
+
+新建laravel项目
+laravel new 项目名
+
+端口占有查询
+netstat -tunlp | grep 端口号
+断开端口
+kill -9 进程号
+后台运行命令
+nohup command >e.txt &
+检查远端ip的端口是否可以连接
+nc -zv www.shuimengzhi.com 22
+
