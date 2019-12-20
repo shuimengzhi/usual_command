@@ -24,3 +24,12 @@ nohup command >e.txt &
 检查远端ip的端口是否可以连接
 nc -zv www.shuimengzhi.com 22
 
+启动docker服务
+service docker start
+
+
+下载git仓库将这个仓库引用到别的git仓库，删除原仓库的.git,.gitignore并没有用，还需要如下操作才行
+git rm --cached 文件夹名
+	git add 文件夹名
+md转doc模式
+pandoc -s -o doc.html part01.md part02.md
